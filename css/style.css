@@ -45,3 +45,39 @@
     border: none;
     border-radius: 5px;
 }
+
+/* failure section style */
+.failure-parent {
+    width: 960px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-explain {
+    width: 350px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.failure-explain ul {
+    list-style: none;
+    margin-left: -60px;
+}
+.failure-explain ul li{
+    margin: 10px 0;
+}
+.failure-explain ul li i{
+    color: green;
+}
