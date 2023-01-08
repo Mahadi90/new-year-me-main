@@ -44,6 +44,7 @@
     background-color: #FFFFFF;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* failure section style */
@@ -129,7 +130,7 @@
     color: #FFFFFF;
 }
 
-.call-btn {
+.call-btn{
     text-decoration: none;
     display: inline-block;
     margin: 10px 0 0 45px;
@@ -142,4 +143,83 @@
     font-size: 20px;
     color: #005FAC;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+/* footer style */
+#footer {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.footer-parent {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-div {
+    width: 450px;
+    color: #FFFFFF;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.contact {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin-top: 15px;
+}
+
+.twitter-img {
+    margin: 0 10px;
+}
+
+.subscribe-div {
+    width: 300px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.subscribe-div form input {
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    margin: 20px 0;
+    background: transparent;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+}
+
+.submit-btn {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 13px 25px;
+    border-radius: 5px;
+    background-color:#005FAC;
+    color: #FFFFFF;
+    cursor: pointer;
 }
